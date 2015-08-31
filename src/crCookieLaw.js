@@ -21,8 +21,6 @@ angular.module('crCookieLaw',[
       link: function(scope, element, attrs){
         scope.text = 'By using the '+scope.website+' website you agree to our use of cookies as described in our cookie policy.';
 
-        $cookies.remove('cremeCookieLaw');
-
         scope.showCookieLaw = function(){
           return !$cookies.get('cremeCookieLaw');
         };

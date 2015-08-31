@@ -1,3 +1,8 @@
+<a name"1.0.2"></a>
+### 1.0.2 (2015-08-31)
+
+* Fixed bug created by some test code
+
 <a name"1.0.1"></a>
 ## 1.0.1 (2015-08-31)
 
