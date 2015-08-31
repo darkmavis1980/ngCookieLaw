@@ -12,7 +12,7 @@ angular.module('crCookieLaw',[
   function($cookies){
     return {
       restrict: 'E',
-      template: '<div ng-if="showCookieLaw()" class="crcl-banner">{{text}} <button class="killBanner()">OK</button></div>',
+      template: '<div ng-if="showCookieLaw()" class="crcl-banner">{{text}} <button class="killBanner()">OK</button> <a href="{{detailsLink}}" class="crcl-learn-more">Learn more</a></div>',
       scope: {
         website: '@',
         detailsLink: '@'
