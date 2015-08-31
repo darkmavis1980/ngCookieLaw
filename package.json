@@ -1,7 +1,7 @@
 {
   "name": "crCookieLaw",
   "description": "Creme Global's cookie law plugin.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://stash.cremelabs.com/projects/CC/repos/crerrors/browse",
   "private": true,
   "scripts": {
