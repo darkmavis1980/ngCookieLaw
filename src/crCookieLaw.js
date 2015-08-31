@@ -12,6 +12,7 @@ angular.module('crCookieLaw',[
   function($cookies){
     return {
       restrict: 'E',
+      replace: true,
       template: '<div ng-if="showCookieLaw()" class="crcl-banner">{{text}} <button class="killBanner()">OK</button> <a href="{{detailsLink}}" class="crcl-learn-more">Learn more</a></div>',
       scope: {
         website: '@',
@@ -21,7 +22,7 @@ angular.module('crCookieLaw',[
         $scope.text = 'By using the '+$scope.website+' website you agree to our use of cookies as described in our cookie policy.';
 
         $scope.showCookieLaw = function(){
-          return $cookies.get('cremeCookieLaw');
+          return !$cookies.get('cremeCookieLaw');
         };
 
         $scope.killBanner = function(){
