@@ -1,11 +1,16 @@
 $crcl-trans-black: rgba(0,0,0,.7);
+$crcl-trans-black-light: rgba(0,0,0,.2);
 $crcl-white: #FFF;
+$crcl-orange: #F38F24;
+
 $crcl-radius: 5px;
-$crcl-banner-height: 30px;
+$crcl-banner-height: 20px;
 $crcl-banner-padding: 10px;
+$crcl-font-size: 12px;
 
 .crcl-banner{
   position: fixed;
+  font-size: $crcl-font-size;
   z-index: 10000;
   padding: $crcl-banner-padding;
   top: 0;
@@ -19,5 +24,16 @@ $crcl-banner-padding: 10px;
 
   button{
     border-radius: $crcl-radius;
+    border: none;
+    padding: 0 10px;
+    line-height: $crcl-font-size*2;
+    background-color: $crcl-orange;
+  }
+  .crcl-learn-more{
+    background-color: $crcl-trans-black-light;
+    border-radius: $crcl-radius;
+    float: right;
+    padding: 2px $crcl-banner-padding;
+    color: $crcl-white;
   }
 }
