@@ -12,21 +12,21 @@ angular.module('crCookieLaw',[
   function($cookies){
     return {
       restrict: 'E',
-      replace: true,
-      template: '<div ng-if="showCookieLaw()" class="crcl-banner">{{text}} <button class="killBanner()">OK</button> <a href="{{detailsLink}}" class="crcl-learn-more">Learn more</a></div>',
+      replace: false,
+      template: '<div ng-if="showCookieLaw()" class="crcl-banner">{{text}} <button ng-click="killBanner()">OK</button> <a href="{{detailsLink}}" class="crcl-learn-more">Learn more</a></div>',
       scope: {
         website: '@',
         detailsLink: '@'
       },
-      controller: function($scope, $element, $attrs){
-        $scope.text = 'By using the '+$scope.website+' website you agree to our use of cookies as described in our cookie policy.';
+      link: function(scope, element, attrs){
+        scope.text = 'By using the '+scope.website+' website you agree to our use of cookies as described in our cookie policy.';
 
-        $scope.showCookieLaw = function(){
-          return !$cookies.get('cremeCookieLaw');
+        scope.showCookieLaw = function(){
+          return !$cookies.get('cremeCookieLaw2');
         };
 
-        $scope.killBanner = function(){
-          $cookie.put('cremeCookieLaw',true);
+        scope.killBanner = function(){
+          $cookies.put('cremeCookieLaw2',true);
         }
       }
     }

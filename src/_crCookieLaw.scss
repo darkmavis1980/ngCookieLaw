@@ -1,16 +1,23 @@
 $crcl-trans-black: rgba(0,0,0,.7);
 $crcl-white: #FFF;
+$crcl-radius: 5px;
+$crcl-banner-height: 30px;
+$crcl-banner-padding: 10px;
 
 .crcl-banner{
   position: fixed;
   z-index: 10000;
-  padding: 10px;
+  padding: $crcl-banner-padding;
   top: 0;
   left: 0;
   width: 100%;
-  line-height: 30px;
-  min-height: 30px;
+  line-height: $crcl-banner-height;
+  min-height: $crcl-banner-height;
   display: block;
   background-color: $crcl-trans-black;
   color: $crcl-white;
+
+  button{
+    border-radius: $crcl-radius;
+  }
 }
