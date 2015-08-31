@@ -15,8 +15,7 @@
     "angular-loader": "1.4.x",
     "angular-messages": "1.4.x",
     "angular-mocks": "~1.4.x",
-    "angular-touch": "~1.4.x",
-    "crTranslations": "ssh://git@stash.cremelabs.com:7999/cc/crTranslations.git#v0.0.x"
+    "angular-touch": "~1.4.x"
   },
   "resolutions": {
     "angular": "1.4.x"

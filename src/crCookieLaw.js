@@ -4,7 +4,6 @@
   * @memberOf   crCookieLaw
   */
 angular.module('crCookieLaw',[
-  'crTranslations',
   'ngCookies'
 ])
 
