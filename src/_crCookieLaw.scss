@@ -1,0 +1,13 @@
+$trans-black: rgba(0,0,0,.7);
+$white: #FFF;
+
+.cookie-law-banner{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 40px;
+  display: block;
+  background-color: $trans-black;
+  color: $white;
+}
