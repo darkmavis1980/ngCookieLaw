@@ -1,3 +1,8 @@
+<a name"1.0.5"></a>
+### 1.0.5 (2015-09-01)
+
+* Now it's possible to specify the position of the banner (read README.md)
+
 <a name"1.0.4"></a>
 ### 1.0.4 (2015-09-01)
 

@@ -14,13 +14,19 @@ angular.module('crCookieLaw',[
     return {
       restrict: 'E',
       replace: false,
-      template: '<div ng-if="showCookieLaw()" class="crcl-banner">{{text}} <button ng-click="killBanner()">{{closeBtnLabel}}</button> <a href="{{detailsLink}}" target="_blank" class="crcl-learn-more">Learn more &raquo;</a></div>',
+      template: '<div ng-if="showCookieLaw()" class="crcl-banner {{position}}">{{text}} <button ng-click="killBanner()">{{closeBtnLabel}}</button> <a href="{{detailsLink}}" target="_blank" class="crcl-learn-more">Learn more &raquo;</a></div>',
       scope: {
         website: '@',
         detailsLink: '@',
-        closeBtnLabel: '@'
+        closeBtnLabel: '@',
+        position: '@'
       },
       link: function(scope, element, attrs){
+
+        if(!angular.isDefined(scope.position)){
+          scope.position = 'top';
+        }// end if
+
         scope.text = 'By using the '+scope.website+' website you agree to our use of cookies as described in our cookie policy.';
 
         scope.showCookieLaw = function(){

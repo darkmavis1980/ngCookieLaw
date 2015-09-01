@@ -21,7 +21,10 @@ $crcl-font-size: 12px;
   display: block;
   background-color: $crcl-trans-black;
   color: $crcl-white;
-
+  &.bottom{
+    top: auto;
+    bottom: 0;
+  }
   button{
     border-radius: $crcl-radius;
     border: none;
