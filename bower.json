@@ -1,6 +1,6 @@
 {
   "name": "crErrors",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "homepage": "https://stash.cremelabs.com/projects/CC/repos/crcookielaw/browse",
   "description": "Creme Global's cookie law plugin.",
   "main": [
@@ -15,7 +15,8 @@
     "angular-loader": "1.4.x",
     "angular-messages": "1.4.x",
     "angular-mocks": "~1.4.x",
-    "angular-touch": "~1.4.x"
+    "angular-touch": "~1.4.x",
+    "angular-animate": "~1.4.x"
   },
   "resolutions": {
     "angular": "1.4.x"
