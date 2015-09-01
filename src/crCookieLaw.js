@@ -1,14 +1,16 @@
 'use strict';
+
 /**
   * @namespace  crCookieLaw
   * @memberOf   crCookieLaw
   */
 angular.module('crCookieLaw',[
-  'ngCookies'
+  'ngCookies',
+  'ngAnimate'
 ])
 
-.directive('cookieLaw',['$cookies',
-  function($cookies){
+.directive('cookieLaw',['$cookies','$animate',
+  function($cookies, $animate){
     return {
       restrict: 'E',
       replace: false,
@@ -26,7 +28,11 @@ angular.module('crCookieLaw',[
         };
 
         scope.killBanner = function(){
-          $cookies.put('cremeCookieLaw',true);
+          var expireDate = new Date();
+          expireDate.setDate(expireDate.getDate() + 31);
+          $cookies.put('cremeCookieLaw',true,{
+            'expires': expireDate
+          });
         }
       }
     }

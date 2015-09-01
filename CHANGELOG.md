@@ -1,3 +1,9 @@
+<a name"1.0.3"></a>
+### 1.0.3 (2015-09-01)
+
+* Added animation when the user closes the banner
+* Now the cookie expires after 31 days and not when the user closes the browser
+
 <a name"1.0.2"></a>
 ### 1.0.2 (2015-08-31)
 
