@@ -1,3 +1,8 @@
+<a name"1.0.8"></a>
+### 1.0.8 (2015-09-02)
+
+* removed .sass-cache directive and added to the .gitignore
+
 <a name"1.0.7"></a>
 ### 1.0.7 (2015-09-02)
 
