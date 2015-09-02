@@ -1,3 +1,8 @@
+<a name"1.0.9"></a>
+### 1.0.9 (2015-09-02)
+
+* updated bower.json and package.json to use the github url instead of the stash one, which is not publicly accessible
+
 <a name"1.0.8"></a>
 ### 1.0.8 (2015-09-02)
 

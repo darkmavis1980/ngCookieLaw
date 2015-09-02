@@ -1,7 +1,7 @@
 {
   "name": "ngCookieLaw",
-  "version": "1.0.8",
-  "homepage": "https://stash.cremelabs.com/projects/CC/repos/crcookielaw/browse",
+  "version": "1.0.9",
+  "homepage": "https://github.com/darkmavis1980/ngCookieLaw",
   "description": "Cookie law plugin.",
   "main": [
     "src/ngCookieLaw.js",
