@@ -1,11 +1,11 @@
 /*jshint quotmark: false */
 //"use strict";
 
-describe("crCookieLaw", function() {
+describe("ngCookieLaw", function() {
 
   beforeEach(function(){
     module('ngCookies');
-    module('crCookieLaw');
+    module('ngCookieLaw');
   });
 
   describe("Directives", function(){

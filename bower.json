@@ -1,11 +1,11 @@
 {
-  "name": "crErrors",
-  "version": "1.0.5",
+  "name": "ngCookieLaw",
+  "version": "1.0.6",
   "homepage": "https://stash.cremelabs.com/projects/CC/repos/crcookielaw/browse",
-  "description": "Creme Global's cookie law plugin.",
+  "description": "Cookie law plugin.",
   "main": [
-    "src/crCookieLaw.js",
-    "src/_crCookieLaw.scss"
+    "src/ngCookieLaw.js",
+    "src/ngCookieLaw.scss"
   ],
   "dependencies": {
     "angular": "1.4.x",

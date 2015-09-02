@@ -1,3 +1,9 @@
+<a name"1.0.6"></a>
+### 1.0.6 (2015-09-02)
+
+* Renamed crCookieLaw to ngCookieLaw
+* Added the watch, time and sass tasks on the GruntFile.js to generate the CSS file from the SASS file
+
 <a name"1.0.5"></a>
 ### 1.0.5 (2015-09-01)
 

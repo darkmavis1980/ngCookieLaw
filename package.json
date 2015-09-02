@@ -1,7 +1,7 @@
 {
-  "name": "crCookieLaw",
-  "description": "Creme Global's cookie law plugin.",
-  "version": "1.0.5",
+  "name": "ngCookieLaw",
+  "description": "Cookie law plugin.",
+  "version": "1.0.6",
   "homepage": "https://stash.cremelabs.com/projects/CC/repos/crerrors/browse",
   "private": true,
   "scripts": {
@@ -9,16 +9,20 @@
     "test": "karma start karma.conf.js",
     "test-single-run": "karma start karma.conf.js --single-run"
   },
-  "author": "Creme Global",
+  "author": "Creme Global - Alessio Michelini",
   "devDependencies": {
     "grunt-cli": "^0.1.13",
     "grunt-karma": "~0.9.0",
     "karma": "^0.12.32",
     "grunt-conventional-changelog": "^1.2.2",
+    "grunt-contrib-sass": "~0.8.1",
+    "load-grunt-tasks": "~0.6.0",
     "karma-jasmine": "^0.2.3",
     "karma-chrome-launcher": "^0.1.7",
     "karma-phantomjs-launcher": "^0.1.4",
-    "karma-script-launcher": "^0.1.0"
+    "karma-script-launcher": "^0.1.0",
+    "time-grunt": "^1.0.0",
+    "grunt-contrib-watch": "~0.6.1"
   },
   "dependencies": {
     "grunt": "^0.4.5"
